@@ -44,7 +44,9 @@
                     <legend>Skills</legend>
                     <!-- skills -->
                     <label for="Skills" >Skills:</label>
-                    <input type="text" placeholder="Skills eg. HTML, CSS" id="Skills">
+                    <textarea id="Skills" name="" placeholder="Enter your Skills "  rows="4" >
+
+                    </textarea>
                 </fieldset>
                 <fieldset>
                     <legend>Projects</legend>
@@ -64,12 +66,14 @@
                     <label for="Duration">Duration</label>
                     <input type="text" placeholder="Duration" id="Duration"><br>
                     <label for="Description">Description</label>
-                    <input type="text" placeholder="Description" id="Description"><br>
+                   <textarea name="Description" id="Description" rows="5" placeholder="Description"></textarea>
                     
                 </fieldset>
                 <button type="submit" class="btn">submit</button>
                 <button type="reset" class="btn">reset</button>
-                <button class="btn" onclick="handleLeft()"><<</button>
+                
+
+                <button class="btn" onclick="handleLeft()">View & Print</button>
             </form>
         </div>
         <div class="right">
