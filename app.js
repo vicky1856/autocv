@@ -12,6 +12,9 @@ function handleSubmit(e) {
   //   const name_resume = document.getElementById("name_resume");
   //   name_resume.innerHTML = name.value;
   //   similarly for all the other fields
+  const name = document.getElementById("name");
+const name_resume = document.getElementById("name_resume");
+name_resume.innerHTML = name.value;
 }
 
 function handleLeft() {
