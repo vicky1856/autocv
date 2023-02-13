@@ -90,6 +90,7 @@ main>.right>.block1{
     border: 15px;
     align-items: flex-end;
     padding-right: 20px;
+    padding: 7px;
 }
 /* .form{
     align-items: center;
